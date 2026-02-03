@@ -2,7 +2,7 @@
 
 A popular science review of the westernmost region of Russia. > A project where Prussian history, German philosophy and modern Russian character are intertwined.
 
-📖 О проекте
+📖 About the project
 
 This is a lightweight and adaptive landing page designed to showcase the history and geography of Kaliningrad (formerly Konigsberg). The site is designed in a strict "academic" style using a dark palette and gold accents, which emphasizes the premium and historical significance of the content.
 
@@ -30,18 +30,18 @@ Google Fonts — typography (Cinzel, Lora, Montserrat).
 
 Font Awesome — iconography.
 
-🚀 Как запустить
+🚀 How to launch
 
-Так как это статичный сайт, вам не нужно ничего устанавливать. Просто клонируйте репозиторий и откройте index.html:
+Since this is a static website, you don't need to install anything. Just clone the repository and open index.html:
 
-👤 Автор
+👤 Author
 
-Ichimoku Full Stack разработчик.
+Ichimoku Full Stack developer.
 
-"Всё создано во славу истории и чистого кода."
+"Everything was created for the glory of history and clean code."
 
-📄 Лицензия
+📄 License
 
-Этот проект распространяется под лицензией MIT. Вы можете использовать его как основу для своих работ.
+This project is distributed under the MIT license. You can use it as the basis for your work.
 
-© 2026 ICHIMOKU N.K. — Все права защищены.
+© 2026 ICHIMOKU N.K. — All rights reserved.
