@@ -1,0 +1,109 @@
+/* --- CUSTOM CSS --- */
+:root {
+    --amber-primary: #d97706; /* Более сдержанный янтарный */
+    --paper-white: #f1f5f9;
+    --ink-black: #0f172a;
+    --museum-bg: #1e293b;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--ink-black);
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Cinzel', serif;
+}
+
+.academic-text {
+    font-family: 'Lora', serif;
+}
+
+/* Hero Parallax */
+.hero-bg {
+    background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.9)), 
+                      url('https://images.unsplash.com/photo-1541999204076-2f3479a0b9a9?q=80&w=2500&auto=format&fit=crop');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Smooth Scroll & Selection */
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: var(--amber-primary);
+    color: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 3px;
+}
+
+/* Animations */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Glass Card styled for Info */
+.info-card {
+    background: rgba(30, 41, 59, 0.6);
+    border-left: 3px solid var(--amber-primary);
+    backdrop-filter: blur(5px);
+    transition: background 0.3s;
+}
+
+.info-card:hover {
+    background: rgba(30, 41, 59, 0.8);
+}
+
+/* Timeline Connector */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: rgba(217, 119, 6, 0.3);
+    z-index: 0;
+}
+
+/* Mobile adjustment for timeline */
+@media (max-width: 768px) {
+    .timeline-line {
+        left: 20px;
+    }
+}
+
+/* Image hover zoom */
+.zoom-img-container {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.zoom-img-container img {
+    transition: transform 0.5s ease;
+}
+
+.zoom-img-container:hover img {
+    transform: scale(1.05);
+}
